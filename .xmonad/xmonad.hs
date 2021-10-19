@@ -31,11 +31,11 @@ xmonad $ docks def
 	, workspaces = myWorkspaces
 	, manageHook = manageDocks <+> (isFullscreen --> doFullFloat) <+> manageHook defaultConfig
 	, logHook = dynamicLogWithPP $ xmobarPP { ppOutput = hPutStrLn xmproc
-	, ppCurrent = xmobarColor "#f1fa8c" "" . wrap "<box type=Bottom width=2 mb=2 color=#f1fa8c>" "</box>"
+	, ppCurrent = xmobarColor "#f1fa8c" ""
 	, ppHiddenNoWindows = xmobarColor "#bd93f9" ""
 	, ppTitle = xmobarColor "#8be9fd" ""
 	, ppLayout = xmobarColor "#50fa7b" ""
-	, ppHidden = xmobarColor "#ff79c6" "" . wrap "<box type=Bottom width=2 mt=2 color=#ff79c6>" "</box>"}
+	, ppHidden = xmobarColor "#ff79c6" ""}
     }
   `additionalKeysP`
     [ ("M-]"  , spawn "brave-browser"                   )
