@@ -2,7 +2,7 @@ Config { overrideRedirect = False
        , font     = "xft:Iosevka Nerd Font:bold:size=10"
        , bgColor  = "#282a36"
        , fgColor  = "#f8f8f2"
-       , position = TopSize L 100 12
+       , position = Static { xpos = 8 , ypos = 8, width = 1904, height = 28}
 	   , allDesktops  = True
        , commands = [ Run MultiCpu         [ "--template" , "CPU cores: <total0>% <total1>% <total2>% <total3>% <total4>% <total5>%"
                              , "--Low"      , "50"         -- units: %
@@ -18,7 +18,7 @@ Config { overrideRedirect = False
                              , "--normal"   , "#ffb86c"
                              , "--high"     , "#ff5555"
                              ] 10
-                    , Run Date "%Y/%m/%d | %H:%M:%S" "date" 10
+                    , Run Date "%Y/%m/%d   %H:%M:%S" "date" 10
 					, Run UnsafeStdinReader
 					, Run Kbd            [ ("us" , "Layout: US")
                              , ("ru" , "Layout: RU")
@@ -26,5 +26,5 @@ Config { overrideRedirect = False
                     ]
        , sepChar  = "%"
        , alignSep = "}{"
-       , template = " enritto  %UnsafeStdinReader% }{ %multicpu% | %memory% | %kbd% | %date% "
+       , template = " enritto  %UnsafeStdinReader% }{ %multicpu%   %memory%   %kbd%   %date% "
        }
