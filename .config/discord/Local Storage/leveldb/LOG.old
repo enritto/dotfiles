@@ -1,6 +1,0 @@
-2021/10/16-19:25:19.334 5669 Reusing MANIFEST /home/enritto/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2021/10/16-19:25:19.334 5669 Recovering log #10
-2021/10/16-19:25:19.335 5669 Reusing old log /home/enritto/.config/discord/Local Storage/leveldb/000010.log 
-2021/10/16-19:34:20.013 565a Level-0 table #14: started
-2021/10/16-19:34:20.055 565a Level-0 table #14: 11696 bytes OK
-2021/10/16-19:34:20.083 565a Delete type=0 #10
