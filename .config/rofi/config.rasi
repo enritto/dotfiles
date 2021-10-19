@@ -1,0 +1,6 @@
+configuration {
+  terminal: "kitty";
+  font: "Iosevka Nerd Font 12";
+  icon-theme: "Papirus";
+  theme: "~/.config/rofi/dracula-one/dracula-one-dark.rasi";
+}

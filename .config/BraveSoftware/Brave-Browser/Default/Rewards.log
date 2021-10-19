@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+[Oct 16, 2021, 4:50:07.8 PM:ERROR:refill_unblinded_tokens.cc(191)] Failed to get signed tokens
+[Oct 16, 2021, 4:50:21.9 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 4:50:21.9 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 4:51:19.1 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 4:52:03.2 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 4:53:55.7 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 5:12:42.7 PM:ERROR:creative_new_tab_page_ads_database_table.cc(436)] Failed to get creative new tab page ad
+[Oct 16, 2021, 5:13:32.2 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 5:13:32.2 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 5:24:01.4 PM:ERROR:creative_new_tab_page_ads_database_table.cc(436)] Failed to get creative new tab page ad
+[Oct 16, 2021, 5:24:33.2 PM:ERROR:publisher.cc(845)] Failed to retrieve publisher info while updating media duration
+[Oct 16, 2021, 5:24:33.5 PM:ERROR:publisher.cc(774)] Publisher info not found
+--------------------------------------------------------------------------------
+[Oct 16, 2021, 5:27:00.5 PM:ERROR:creative_new_tab_page_ads_database_table.cc(436)] Failed to get creative new tab page ad
+[Oct 16, 2021, 5:30:51.3 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 5:30:51.3 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 5:35:34.5 PM:ERROR:creative_new_tab_page_ads_database_table.cc(436)] Failed to get creative new tab page ad
+[Oct 16, 2021, 5:51:27.1 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 6:06:58.2 PM:ERROR:publisher.cc(845)] Failed to retrieve publisher info while updating media duration
+[Oct 16, 2021, 6:06:58.9 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 6:06:58.9 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 6:13:09.7 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Oct 16, 2021, 6:13:09.7 PM:ERROR:publisher.cc(774)] Publisher info not found

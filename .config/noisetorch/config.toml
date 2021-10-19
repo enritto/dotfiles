@@ -1,0 +1,8 @@
+Threshold = 62
+DisplayMonitorSources = false
+EnableUpdates = true
+GuiltTripped = false
+FilterInput = true
+FilterOutput = false
+LastUsedInput = "alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback"
+LastUsedOutput = ""

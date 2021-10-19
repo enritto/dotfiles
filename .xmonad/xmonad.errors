@@ -1,0 +1,22 @@
+
+xmonad.hs:13:41: warning: [-Wdeprecations]
+    In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+   |
+13 | myLayout = smartBorders . avoidStruts $ spacing 8 $ Tall 1 (3/100) (1/2) ||| Full
+   |                                         ^^^^^^^
+
+xmonad.hs:19:1: warning: [-Wtabs]
+    Tab character found here, and in 23 further locations.
+    Please use spaces instead.
+   |
+19 |         
+   | ^^^^^^^^
+
+xmonad.hs:32:86: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+32 |         , manageHook = manageDocks <+> (isFullscreen --> doFullFloat) <+> manageHook defaultConfig
+   |                                                                                      ^^^^^^^^^^^^^
