@@ -1,22 +1,22 @@
 
-xmonad.hs:13:41: warning: [-Wdeprecations]
+xmonad.hs:14:68: warning: [-Wdeprecations]
     In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
     Deprecated: "Use spacingRaw instead."
    |
-13 | myLayout = smartBorders . avoidStruts $ spacing 8 $ Tall 1 (3/100) (1/2) ||| Full
-   |                                         ^^^^^^^
+14 | myLayout = renamed [CutWordsLeft 1] $ smartBorders . avoidStruts $ spacing 8 $ tiled ||| full
+   |                                                                    ^^^^^^^
 
-xmonad.hs:19:1: warning: [-Wtabs]
-    Tab character found here, and in 23 further locations.
+xmonad.hs:20:46: warning: [-Wtabs]
+    Tab character found here, and in 26 further locations.
     Please use spaces instead.
    |
-19 |         
-   | ^^^^^^^^
+20 |     full = renamed [Replace "monocle"] (Full)   
+   |                                              ^^^
 
-xmonad.hs:32:86: warning: [-Wdeprecations]
+xmonad.hs:34:86: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
    |
-32 |         , manageHook = manageDocks <+> (isFullscreen --> doFullFloat) <+> manageHook defaultConfig
+34 |         , manageHook = manageDocks <+> (isFullscreen --> doFullFloat) <+> manageHook defaultConfig
    |                                                                                      ^^^^^^^^^^^^^
